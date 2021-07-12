@@ -1,6 +1,7 @@
-import Employee from "./employee";
+// import Employee from "./employee";
+const Employee = require("./employee");
 
-export class Engineer extends Employee {
+class Engineer extends Employee {
     constructor(name, id, email, github) {
         super(name, id, email);
         this.github = github;
@@ -14,3 +15,5 @@ export class Engineer extends Employee {
         return "Engineer";
     }
 }
+
+module.exports = Engineer;
