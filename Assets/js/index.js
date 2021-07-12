@@ -1,6 +1,8 @@
 import inquirer from "Inquirer";
 import path from "path";
-import { Manager, Engineer, Intern } from "./utils/classes.js";
+import Manager from "./utils/manager.js";
+import Engineer from "./utils/engineer.js";
+import Intern from "./utils/intern.js";
 
 const empTypeList = {
 	type: "list",
