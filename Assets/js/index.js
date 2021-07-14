@@ -14,7 +14,7 @@ const Intern = require("./utils/intern");
 // import Engineer from "./utils/engineer";
 // import Intern from "./utils/intern";
 
-let done = false;
+let finished = false;
 
 const empTypeList = [
     {
@@ -100,14 +100,17 @@ let teamMembers = [];
 // Function to initialize app
 async function init() {
     await teamMgr();
-    let nextEmp = await inquirer.prompt(empTypeList);
-    console.log(nextEmp);
-    if (nextEmp.empType === "Engineer") {
-        teamEng();
-    } else if (nextEmp.empType === "Intern") {
-        teamInt();
-    } else if (nextEmp.empType === "Finished") {
-        // function generateHTML
+    while (finished === false) {
+        let nextEmp = await inquirer.prompt(empTypeList);
+        console.log(nextEmp);
+        if (nextEmp.empType === "Engineer") {
+            await teamEng();
+        } else if (nextEmp.empType === "Intern") {
+            await teamInt();
+        } else if (nextEmp.empType === "Finished") {
+            finished = true;
+            // function generateHTML
+        }
     }
     // inquirer.prompt(empTypeList).then((data) => {
     //     if (data.empType === "Engineer") {
