@@ -27,7 +27,7 @@ Navigate to assets/js and run 'node index.js', answer the prompts in the termina
 
 ### Project Screenshot
 
-![Team builder screenshot](./assets/images/screenshot.png)
+![Team builder screenshot](./Assets/images/screenshot.png)
 
 ### Credits
 
