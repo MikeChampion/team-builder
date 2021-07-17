@@ -180,7 +180,7 @@ function memberTileGen(type, member) {
             </p>
             <p class="email w-11/12 px-4 py-1 bg-white">
                 <ion-icon name="mail-outline"></ion-icon>
-                <a href=${member.email}
+                <a href="mailto:${member.email}"
                     >${member.email}</a
                 >
             </p>
@@ -229,7 +229,7 @@ function memberTileGen(type, member) {
                 <p class="email w-11/12 px-4 py-1 bg-white">
                     <ion-icon name="mail-outline"></ion-icon>
 
-                    <a href=${member.email}
+                    <a href="mailto:${member.email}"
                         >${member.email}</a
                     >
                 </p>
@@ -280,7 +280,7 @@ function memberTileGen(type, member) {
                 </p>
                 <p class="email w-11/12 px-4 py-1 bg-white">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <a href=${member.email}
+                    <a href="mailto:${member.email}"
                         >${member.email}</a
                     >
                 </p>
