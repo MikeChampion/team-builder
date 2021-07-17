@@ -18,7 +18,7 @@ Prompts the user for basic information for each member of their team (Manager, E
 
 ## <a id="install-instructions">II. Install Instructions</a>
 
-Fork this repository and clone it to your local machine. You will need Inquirer.
+Fork this repository and clone it to your local machine. You will need Inquirer for the prompts and Jest for testing.
 
 ## <a id="usage-information">III. Usage Information</a>
 
@@ -31,7 +31,7 @@ Navigate to assets/js and run 'node index.js', answer the prompts in the termina
 
 ### Credits
 
-This NodeJS project uses <a href="https://www.npmjs.com/package/inquirer" target="_blank">Inquirer</a> to run in the terminal, and Jest for testing.
+This NodeJS project uses <a href="https://www.npmjs.com/package/inquirer" target="_blank">Inquirer</a> to run in the terminal, and <a href="https://www.npmjs.com/package/inquirer" target="_blank">Jest</a> for testing.
 
 ## <a id="contribution-guidelines">IV. Contribution Guidelines</a>
 
