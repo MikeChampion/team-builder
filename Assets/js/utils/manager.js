@@ -1,4 +1,3 @@
-// import Employee from "./employee.js";
 const Employee = require("./employee");
 
 class Manager extends Employee {

@@ -1,4 +1,3 @@
-// import Manager from "../utils/manager";
 const Engineer = require("../utils/engineer");
 
 describe("init", () => {

@@ -108,10 +108,10 @@ async function init() {
     // GENERATE TEAM TILES
     const generate = teamTilesGen(teamMembers);
 
-    // GENERATE INDEX.HTML
+    // GENERATE HTML
     const finalPage = generateTeamHTML(generate);
 
-    // WRITE FILE with fs
+    // WRITE TEAM.HTML with fs
     fs.writeFile("team.html", finalPage, (err) => {
         if (err) {
             console.log(err);
@@ -121,6 +121,7 @@ async function init() {
     });
 }
 
+// ITERATES OVER 'teamMembers' AND COLLECTS INDIVIDUAL MEMBER TILES
 function teamTilesGen(teamMembers) {
     let teamTiles = "";
     teamMembers.forEach((member) => {
@@ -130,6 +131,7 @@ function teamTilesGen(teamMembers) {
     return teamTiles;
 }
 
+// GENERATES MEMBER TILE
 function memberTileGen(type, member) {
     let tile;
     if (type === "manager") {
@@ -295,6 +297,7 @@ function memberTileGen(type, member) {
     return tile;
 }
 
+// GENERATES FINAL HTML
 function generateTeamHTML(teamTiles) {
     return `<!DOCTYPE html>
     <html lang="en">
@@ -348,6 +351,7 @@ function generateTeamHTML(teamTiles) {
         </html>`;
 }
 
+// DISPLAYS MANAGER QUESTIONS
 async function teamMgr() {
     let member = ["manager"];
     let newMember = await inquirer.prompt(questions.manager);
@@ -355,6 +359,7 @@ async function teamMgr() {
     return teamMembers.push(member);
 }
 
+// DISPLAYS ENGINEER QUESTIONS
 async function teamEng() {
     let member = ["engineer"];
     let newMember = await inquirer.prompt(questions.engineer);
@@ -362,6 +367,7 @@ async function teamEng() {
     return teamMembers.push(member);
 }
 
+// DISPLAYS INTERN QUESTIONS
 async function teamInt() {
     let member = ["intern"];
     let newMember = await inquirer.prompt(questions.intern);

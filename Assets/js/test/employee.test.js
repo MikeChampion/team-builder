@@ -1,4 +1,3 @@
-// import Employee from "../utils/employee";
 const Employee = require("../utils/employee");
 
 describe("init", () => {

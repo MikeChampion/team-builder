@@ -1,4 +1,3 @@
-// import Manager from "../utils/manager";
 const Intern = require("../utils/intern");
 
 describe("init", () => {
