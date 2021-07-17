@@ -14,19 +14,20 @@ VII. [License](#license)
 
 ## <a id="description">I. Description</a>
 
-Takes in employee info and generates an easy to read page in the browser.
+Prompts the user for basic information for each member of their team (Manager, Engineer, Intern) and generates an easy to reference html page that can be viewed in the browser.
 
 ## <a id="install-instructions">II. Install Instructions</a>
 
-In the terminal, from assets/js, run with the command 'node index.js'
+Fork this repository and clone it to your local machine. You will need Inquirer.
 
 ## <a id="usage-information">III. Usage Information</a>
 
-fork/clone/run
+Navigate to assets/js and run 'node index.js', answer the prompts in the terminal and select 'Finished' when you are done.  
+'team.html' will generate in the assets folder, open it in your browser to see the team.
 
 ### Project Screenshot
 
-![alt text](../images/screenshot.png)
+![Team builder screenshot](./assets/images/screenshot.png)
 
 ### Credits
 
