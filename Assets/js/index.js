@@ -235,8 +235,8 @@ function memberTileGen(type, member) {
                 </p>
                 <p class="office w-11/12 px-4 py-2 bg-white">
                     <ion-icon name="logo-github"></ion-icon>
-
-                    ${member.github}
+                    <a href="https://github.com/${member.github}" target="_blank">
+                    ${member.github}</a>
                 </p>
             </div>
         </div>
