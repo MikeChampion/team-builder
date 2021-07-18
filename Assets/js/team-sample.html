@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link
+                href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+                rel="stylesheet"
+            />
+            <script
+                type="module"
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+            ></script>
+            <script
+                nomodule
+                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+            ></script>
+            <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+            <title>My Team</title>
+        </head>
+        <body class="flex flex-col justify-center items-center w-full">
+            <header class="flex flex-col w-full bg-indigo-700 text-gray-200">
+                <!-- <nav></nav> -->
+                <h1 class="text-center py-8 font-bold text-4xl">My Team</h1>
+            </header>
+            <main class="flex flex-col justify-center items-center w-full">
+                <div
+                    class="
+                        tile-container
+                        flex
+                        md:flex-wrap
+                        flex-col
+                        md:flex-row
+                        justify-center
+                        items-center
+                        w-11/12
+                        md:w-full
+                        pt-12
+                        gap-4
+                        md:gap-2
+                        lg:gap-4
+                    "
+                ><div
+    class="
+        tile
+        flex flex-col
+        w-full
+        md:w-2/5
+        lg:w-1/4 lg:flex-grow-0
+        border border-r-4 border-b-4 border-blue-400
+        rounded-md
+    "
+>
+    <div class="tile-header bg-blue-400 flex flex-col gap-2">
+        <p class="name pt-2 pl-4 font-bold text-xl">Jean-Luc Picard</p>
+        <p
+            class="
+                title
+                pb-2
+                pl-8
+                font-bold
+                text-lg
+                flex flex-row
+            "
+        >
+            <ion-icon
+                name="cafe-outline"
+                class="self-center pr-2"
+            ></ion-icon>
+            Manager
+        </p>
+    </div>
+
+    <div class="tile-body bg-gray-200">
+        <div
+            class="
+                info
+                flex flex-col
+                justify-center
+                items-center
+                gap-y-1
+                py-4
+            "
+        >
+            <p class="id w-11/12 px-4 py-2 bg-white">
+                <ion-icon name="id-card-outline"></ion-icon> 1701D-001
+            </p>
+            <p class="email w-11/12 px-4 py-1 bg-white">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:JLPicard@Enterprise.com"
+                    >JLPicard@Enterprise.com</a
+                >
+            </p>
+            <p class="office w-11/12 px-4 py-2 bg-white">
+                <ion-icon name="location-outline"></ion-icon>
+                ReadyRoom
+            </p>
+        </div>
+    </div></div><div
+        class="
+            tile
+            flex flex-col
+            w-full
+            md:w-2/5
+            lg:w-1/4 lg:flex-grow-0
+            border border-r-4 border-b-4 border-blue-400
+            rounded-md
+        "
+    >
+        <div class="tile-header bg-blue-400 flex flex-col gap-2">
+            <p class="name pt-2 pl-4 font-bold text-xl">Miles O'Brien</p>
+            <p class="title pb-2 pl-8 font-bold text-lg">
+                <ion-icon name="code-outline"></ion-icon> Engineer
+            </p>
+        </div>
+        <div class="tile-body bg-gray-200">
+            <div
+                class="
+                    info
+                    flex flex-col
+                    justify-center
+                    items-center
+                    gap-y-1
+                    py-4
+                "
+            >
+                <p class="id w-11/12 px-4 py-2 bg-white">
+                    <ion-icon
+                        name="id-card-outline"
+                        class="self-center pr-2"
+                    ></ion-icon>
+                    1701D-478
+                </p>
+                <p class="email w-11/12 px-4 py-1 bg-white">
+                    <ion-icon name="mail-outline"></ion-icon>
+
+                    <a href="mailto:MOBrien@Enterprise.com"
+                        >MOBrien@Enterprise.com</a
+                    >
+                </p>
+                <p class="office w-11/12 px-4 py-2 bg-white">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/MilesAndMiles" target="_blank">
+                    MilesAndMiles</a>
+                </p>
+            </div>
+        </div>
+    </div><div
+        class="
+            tile
+            flex flex-col
+            w-full
+            md:w-2/5
+            lg:w-1/4 lg:flex-grow-0
+            border border-r-4 border-b-4 border-blue-400
+            rounded-md
+        "
+    >
+        <div class="tile-header bg-blue-400 flex flex-col gap-2">
+            <p class="name pt-2 pl-4 font-bold text-xl">Geordi LaForge</p>
+            <p class="title pb-2 pl-8 font-bold text-lg">
+                <ion-icon name="code-outline"></ion-icon> Engineer
+            </p>
+        </div>
+        <div class="tile-body bg-gray-200">
+            <div
+                class="
+                    info
+                    flex flex-col
+                    justify-center
+                    items-center
+                    gap-y-1
+                    py-4
+                "
+            >
+                <p class="id w-11/12 px-4 py-2 bg-white">
+                    <ion-icon
+                        name="id-card-outline"
+                        class="self-center pr-2"
+                    ></ion-icon>
+                    1701D-263
+                </p>
+                <p class="email w-11/12 px-4 py-1 bg-white">
+                    <ion-icon name="mail-outline"></ion-icon>
+
+                    <a href="mailto:GLaForge@Enterprise.com"
+                        >GLaForge@Enterprise.com</a
+                    >
+                </p>
+                <p class="office w-11/12 px-4 py-2 bg-white">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/GLaForge" target="_blank">
+                    GLaForge</a>
+                </p>
+            </div>
+        </div>
+    </div><div
+        class="
+            tile
+            flex flex-col
+            w-full
+            md:w-2/5
+            lg:w-1/4 lg:flex-grow-0
+            border border-r-4 border-b-4 border-blue-400
+            rounded-md
+        "
+    >
+        <div class="tile-header bg-blue-400 flex flex-col gap-2">
+            <p class="name pt-2 pl-4 font-bold text-xl">Montgomery Scott</p>
+            <p class="title pb-2 pl-8 font-bold text-lg">
+                <ion-icon name="code-outline"></ion-icon> Engineer
+            </p>
+        </div>
+        <div class="tile-body bg-gray-200">
+            <div
+                class="
+                    info
+                    flex flex-col
+                    justify-center
+                    items-center
+                    gap-y-1
+                    py-4
+                "
+            >
+                <p class="id w-11/12 px-4 py-2 bg-white">
+                    <ion-icon
+                        name="id-card-outline"
+                        class="self-center pr-2"
+                    ></ion-icon>
+                    1701-117
+                </p>
+                <p class="email w-11/12 px-4 py-1 bg-white">
+                    <ion-icon name="mail-outline"></ion-icon>
+
+                    <a href="mailto:Scotty@Enterprise.com"
+                        >Scotty@Enterprise.com</a
+                    >
+                </p>
+                <p class="office w-11/12 px-4 py-2 bg-white">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/MiracleWorker" target="_blank">
+                    MiracleWorker</a>
+                </p>
+            </div>
+        </div>
+    </div><div
+        class="
+            tile
+            flex flex-col
+            w-full
+            md:w-2/5
+            lg:w-1/4 lg:flex-grow-0
+            border border-r-4 border-b-4 border-blue-400
+            rounded-md
+        "
+    >
+        <div class="tile-header bg-blue-400 flex flex-col gap-2">
+            <p class="name pt-2 pl-4 font-bold text-xl">Wesley Crusher</p>
+            <p class="title pb-2 pl-8 font-bold text-lg">
+                <ion-icon
+                    name="person-add-outline"
+                    class="self-center pr-2"
+                ></ion-icon>
+                Intern
+            </p>
+        </div>
+        <div class="tile-body bg-gray-200">
+            <div
+                class="
+                    info
+                    flex flex-col
+                    justify-center
+                    items-center
+                    gap-y-1
+                    py-4
+                "
+            >
+                <p class="id w-11/12 px-4 py-2 bg-white">
+                    <ion-icon name="id-card-outline"></ion-icon>
+                    1701D-SFA6352
+                </p>
+                <p class="email w-11/12 px-4 py-1 bg-white">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <a href="mailto:ShutUpWesley@SFAcademy.com"
+                        >ShutUpWesley@SFAcademy.com</a
+                    >
+                </p>
+                <p class="office w-11/12 px-4 py-2 bg-white">
+                    <ion-icon name="school-outline"></ion-icon>
+                    StarFleet Academy
+                </p>
+            </div>
+        </div>
+    </div></div>
+    </div>
+                </main>
+                <footer></footer>
+                <script src="./assets/js/main.js"></script>
+            </body>
+        </html>
