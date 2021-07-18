@@ -23,7 +23,8 @@ Fork this repository and clone it to your local machine. You will need Inquirer 
 ## <a id="usage-information">III. Usage Information</a>
 
 Navigate to assets/js and run 'node index.js', answer the prompts in the terminal and select 'Finished' when you are done.  
-'team.html' will generate in the assets folder, open it in your browser to see the team.
+'team.html' will generate in the assets folder, open it in your browser to see the team.  
+<a href="https://drive.google.com/file/d/1YKg0Il_UBJ9GdMC_MQxAjSp4X0xIGltw/view" target="_blank">Demo video</a>
 
 ### Project Screenshot
 
